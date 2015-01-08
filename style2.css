@@ -1,0 +1,199 @@
+/* CSS Document */
+
+a:link { text-decoration:none; font-weight:bold; color:#000000; }
+a:hover { text-decoration:none; font-weight:bold; background-color:#FF00FF; }
+a:visited { text-decoration:none; font-weight:bold; color:#000000 }
+a:active { text-decoration:none; font-weight:bold; background-color:#FFFF00 }
+
+body {
+	background:#FFFFFF url(bilder/karatehintergrund.png) no-repeat;
+	font-family:"Times New Roman", Times, serif;
+	/*font-family: tahoma, verdana, san-serif;*/
+}
+
+#container {
+	width: 60em;
+}
+
+#kopf {
+	height: 120px;
+	margin: 0 auto 0em auto;
+	padding: 0;
+}
+
+#content {
+	height: 450px;
+}
+
+#style_ändern {
+	font-size:0.75em;
+	position:relative;
+	top:-0.6em;
+	width:10em;
+	padding-left:0.6em;
+	background:url(bilder/back_rot.png);
+}
+/***********************************************links*/
+#leftContainer {
+	width: 18%;
+	height: 100%;
+	float: left;
+	margin-right: 0.5%;
+	background:url(bilder/back_rot.png);
+	border-top:#CC6666 solid 3px;
+	border-bottom:#CC6666 solid 3px;
+}
+ul#l1 {
+	margin:0.6em 0 0 0;
+	padding:0;
+	list-style:none;
+}
+ul#l1 li {
+	background:url(bilder/back_rot.png);
+	margin:0;
+	padding:0 0 0 0.5em;
+	font-family:"Courier New", Courier, monospace;
+	font-size:17px;	
+	font-weight:bold;
+}
+
+
+/**********************************************mitte*/
+#centerContainer {
+	width: 53%;
+	height: 100%;
+	float: left;
+	margin-right: 0.5%;
+	background:url(bilder/back_rot.png);
+	overflow:auto;
+	border-top:#CC6666 solid 3px;
+	border-bottom:#CC6666 solid 3px;
+}
+
+#m1 {
+	position:relative;
+	margin:1em 0 0 0;
+	padding:0;
+	width:29.6em;
+	overflow:auto;
+	text-align:center;
+}
+#m2_game {
+	position:relative;
+	margin:2em 0 0 0;
+	padding:0;
+	overflow:auto;
+	text-align:center;
+}
+#m3_bilder {
+	position:relative;
+	margin:0 0 0 1em;
+	padding:0;
+	width:29.6em;
+	height:29em;
+	overflow:auto;
+}
+/**************************************************************rechts*/
+#rightContainer {
+	width: 22%;
+	height: 100%;
+	float: left;
+	background:url(bilder/back_rot.png);
+	border-top:#CC6666 solid 3px;
+	border-bottom:#CC6666 solid 3px;
+}
+div#zähler {
+	position:relative;
+	font-size:0.7em;
+	background:url(bilder/back_rot.png);
+	text-align:center;
+	bottom:-96.8%;
+}
+
+
+
+
+/********************************************************Überschrift*/
+
+
+/**********************************************************Hauptnavi*/
+
+#hauptnavi {
+	list-style:none;
+	margin:0;
+	padding:0;
+	font-size:13px;
+}
+
+ul#hauptnavi {
+	
+}
+ul#hauptnavi li {
+	
+}
+
+ul#hauptnavi li a {
+	display:block;
+	padding-left:0.7em;
+}
+
+.aktiv {
+	background-color:#FF00FF;
+}
+
+/***********************************************************Subnavi*/
+
+#subnavi {
+	position:relative;
+	list-style:none;
+	margin:0;
+	padding:0;
+	top:-0.9em;
+}
+ul#subnavi li a {
+	display:block;
+	padding-left:1em;
+}
+
+
+/**********************************************************Kleinkram*/
+
+#headline {
+	background:url(bilder/back_rot.png);
+	font-size:0.7em;
+	height:1.5em;
+	padding-left:1em;
+}
+
+p {
+	font-size:0.7em;
+	padding:0 0.2em 0 0.2em;
+	margin:0 0.5em 0 0.5em;
+}
+
+p a:link { text-decoration:underline; font-weight:bold; color:#000000; }
+p a:visited { text-decoration:underline; font-weight:bold; color:#000000 }
+
+ul#links {
+	list-style:none;
+}
+
+hr {
+	color:#000000;
+	width:90%;
+	height:1px;
+	border:none;
+	border-top:dotted thin;
+	margin-top:1em;
+}
+h3 {
+	margin-left:1em;
+	margin-bottom:0.5em;
+	margin-top:2em;
+	padding:0;
+}
+h5 {
+	margin:0.5em 0.5em 0 1em;
+	font-size:0.8em;
+	background-color:#00FF00;
+}
